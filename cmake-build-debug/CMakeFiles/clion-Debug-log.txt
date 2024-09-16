@@ -1,0 +1,6 @@
+"D:\Dev\DevUtils\jetbrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=F:/msys64/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=F:/msys64/mingw64/bin/cc.exe -DCMAKE_CXX_COMPILER=F:/msys64/mingw64/bin/c++.exe -G "MinGW Makefiles" -S F:\Dev\CProjects\gui\GTK4Learning -B F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug
+-- Checking for module 'gtk4'
+--   Found gtk4, version 4.16.0
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: F:/Dev/CProjects/gui/GTK4Learning/cmake-build-debug
