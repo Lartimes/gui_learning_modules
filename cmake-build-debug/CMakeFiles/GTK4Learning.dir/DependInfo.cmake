@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/Dev/CProjects/gui/GTK4Learning/main.c" "CMakeFiles/GTK4Learning.dir/main.c.obj" "gcc" "CMakeFiles/GTK4Learning.dir/main.c.obj.d"
+  "F:/Dev/CProjects/gui/GTK4Learning/src/main.c" "CMakeFiles/GTK4Learning.dir/src/main.c.obj" "gcc" "CMakeFiles/GTK4Learning.dir/src/main.c.obj.d"
+  "F:/Dev/CProjects/gui/GTK4Learning/src/widgets/widgets.c" "CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj" "gcc" "CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

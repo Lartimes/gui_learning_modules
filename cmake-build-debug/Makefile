@@ -128,29 +128,53 @@ GTK4Learning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/build
 .PHONY : GTK4Learning/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+src/main.obj: src/main.c.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/main.c.obj
-.PHONY : main.c.obj
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/main.c.obj
+.PHONY : src/main.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/main.c.i
-.PHONY : main.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/main.c.s
-.PHONY : main.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/widgets/widgets.obj: src/widgets/widgets.c.obj
+.PHONY : src/widgets/widgets.obj
+
+# target to build an object file
+src/widgets/widgets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj
+.PHONY : src/widgets/widgets.c.obj
+
+src/widgets/widgets.i: src/widgets/widgets.c.i
+.PHONY : src/widgets/widgets.i
+
+# target to preprocess a source file
+src/widgets/widgets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.i
+.PHONY : src/widgets/widgets.c.i
+
+src/widgets/widgets.s: src/widgets/widgets.c.s
+.PHONY : src/widgets/widgets.s
+
+# target to generate assembly for a file
+src/widgets/widgets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.s
+.PHONY : src/widgets/widgets.c.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GTK4Learning
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/widgets/widgets.obj
+	@echo ... src/widgets/widgets.i
+	@echo ... src/widgets/widgets.s
 .PHONY : help
 
 

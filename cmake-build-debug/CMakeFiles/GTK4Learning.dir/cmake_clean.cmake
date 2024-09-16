@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GTK4Learning.dir/main.c.obj"
-  "CMakeFiles/GTK4Learning.dir/main.c.obj.d"
+  "CMakeFiles/GTK4Learning.dir/src/main.c.obj"
+  "CMakeFiles/GTK4Learning.dir/src/main.c.obj.d"
+  "CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj"
+  "CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj.d"
   "GTK4Learning.exe"
   "GTK4Learning.exe.manifest"
   "GTK4Learning.pdb"
