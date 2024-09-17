@@ -1,8 +1,7 @@
 #include <gtk/gtk.h>
 #include <stdlib.h>
 #include <stdio.h>
-
-void read_file(GtkButton *btn, gpointer *user_data) {
+void read_file_note(GtkButton *btn, gpointer *user_data) {
     const char *file_path = "F:\\Dev\\CProjects\\gui\\GTK4Learning\\readme.md";
     FILE *file;
     long file_size;
@@ -39,7 +38,7 @@ void read_file(GtkButton *btn, gpointer *user_data) {
 }
 
 
-void hello_destroy(GtkButton *btn, gpointer *user_data) {
+void hello_destroy_note(GtkButton *btn, gpointer *user_data) {
     const char *str = gtk_button_get_label(btn);
     if (g_strcmp0(str, "hello.") == 0) {
         GtkAlertDialog *alert = gtk_alert_dialog_new("hello.");
@@ -62,7 +61,7 @@ void hello_destroy(GtkButton *btn, gpointer *user_data) {
     return;
 }
 
-static void app_open(GApplication *app, GFile **files, gint n_files, gchar *hint, gpointer user_data) {
+static void app_open_note(GApplication *app, GFile **files, gint n_files, gchar *hint, gpointer user_data) {
 
     GtkApplicationWindow *win;
     GtkBox *box;
@@ -109,9 +108,9 @@ static void app_open(GApplication *app, GFile **files, gint n_files, gchar *hint
     gtk_scrolled_window_set_child(GTK_SCROLLED_WINDOW (scr), (GtkWidget *) textView);
 
 
-    g_signal_connect(btns[0], "clicked", G_CALLBACK(hello_destroy), NULL);
-    g_signal_connect(btns[1], "clicked", G_CALLBACK(hello_destroy), win);
-    g_signal_connect(btns[2], "clicked", G_CALLBACK(read_file), textView);
+    g_signal_connect(btns[0], "clicked", G_CALLBACK(hello_destroy_note), NULL);
+    g_signal_connect(btns[1], "clicked", G_CALLBACK(hello_destroy_note), win);
+    g_signal_connect(btns[2], "clicked", G_CALLBACK(read_file_note), textView);
     gtk_box_append(box, (GtkWidget *) label);
     gtk_box_append(box, (GtkWidget *) btns[0]);
     gtk_box_append(box, (GtkWidget *) btns[1]);
@@ -167,18 +166,18 @@ static void app_open(GApplication *app, GFile **files, gint n_files, gchar *hint
 
 
 }
-static void app_activate(GApplication *app, gpointer user_data) {
+static void app_activate_note(GApplication *app, gpointer user_data) {
     g_print("You need a filename argument.\n");
 }
 
-int main(int argc, char **argv) {
-    GtkApplication *app;
-    int stat;
-    app = gtk_application_new("com.github.ToshioCP.pr2", G_APPLICATION_HANDLES_OPEN);
-    g_signal_connect (app, "activate", G_CALLBACK(app_activate), NULL);
-    g_signal_connect(app, "open", G_CALLBACK(app_open), NULL);
-    stat = g_application_run(G_APPLICATION(app), argc, argv);
-    g_object_unref(app);
-    return stat;
-}
+//int main(int argc, char **argv) {
+//    GtkApplication *app;
+//    int stat;
+//    app = gtk_application_new("com.github.ToshioCP.pr2", G_APPLICATION_HANDLES_OPEN);
+//    g_signal_connect (app, "activate", G_CALLBACK(app_activate), NULL);
+//    g_signal_connect(app, "open", G_CALLBACK(app_open_note), NULL);
+//    stat = g_application_run(G_APPLICATION(app), argc, argv);
+//    g_object_unref(app);
+//    return stat;
+//}
 

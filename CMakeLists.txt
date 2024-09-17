@@ -10,7 +10,8 @@ set(SOURCE_DIR "src")
 file(GLOB_RECURSE ALL_FILES "${SOURCE_DIR}/*")
 
 # 初始化源文件列表和头文件列表
-set(SOURCES "")
+set(SOURCES ""
+        src/FileRenameUtils.c)
 set(HEADERS "")
 
 # 遍历所有文件，将C文件添加到源文件列表，将头文件添加到头文件列表

@@ -128,6 +128,78 @@ GTK4Learning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/build
 .PHONY : GTK4Learning/fast
 
+src/FileRenameUtils.obj: src/FileRenameUtils.c.obj
+.PHONY : src/FileRenameUtils.obj
+
+# target to build an object file
+src/FileRenameUtils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj
+.PHONY : src/FileRenameUtils.c.obj
+
+src/FileRenameUtils.i: src/FileRenameUtils.c.i
+.PHONY : src/FileRenameUtils.i
+
+# target to preprocess a source file
+src/FileRenameUtils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.i
+.PHONY : src/FileRenameUtils.c.i
+
+src/FileRenameUtils.s: src/FileRenameUtils.c.s
+.PHONY : src/FileRenameUtils.s
+
+# target to generate assembly for a file
+src/FileRenameUtils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.s
+.PHONY : src/FileRenameUtils.c.s
+
+src/file/notebook.obj: src/file/notebook.c.obj
+.PHONY : src/file/notebook.obj
+
+# target to build an object file
+src/file/notebook.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj
+.PHONY : src/file/notebook.c.obj
+
+src/file/notebook.i: src/file/notebook.c.i
+.PHONY : src/file/notebook.i
+
+# target to preprocess a source file
+src/file/notebook.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/notebook.c.i
+.PHONY : src/file/notebook.c.i
+
+src/file/notebook.s: src/file/notebook.c.s
+.PHONY : src/file/notebook.s
+
+# target to generate assembly for a file
+src/file/notebook.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/notebook.c.s
+.PHONY : src/file/notebook.c.s
+
+src/file/open.obj: src/file/open.c.obj
+.PHONY : src/file/open.obj
+
+# target to build an object file
+src/file/open.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/open.c.obj
+.PHONY : src/file/open.c.obj
+
+src/file/open.i: src/file/open.c.i
+.PHONY : src/file/open.i
+
+# target to preprocess a source file
+src/file/open.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/open.c.i
+.PHONY : src/file/open.c.i
+
+src/file/open.s: src/file/open.c.s
+.PHONY : src/file/open.s
+
+# target to generate assembly for a file
+src/file/open.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/open.c.s
+.PHONY : src/file/open.c.s
+
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -185,6 +257,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GTK4Learning
+	@echo ... src/FileRenameUtils.obj
+	@echo ... src/FileRenameUtils.i
+	@echo ... src/FileRenameUtils.s
+	@echo ... src/file/notebook.obj
+	@echo ... src/file/notebook.i
+	@echo ... src/file/notebook.s
+	@echo ... src/file/open.obj
+	@echo ... src/file/open.i
+	@echo ... src/file/open.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

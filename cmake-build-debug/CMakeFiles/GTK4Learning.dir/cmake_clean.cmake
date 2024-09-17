@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj"
+  "CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj.d"
+  "CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj"
+  "CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj.d"
+  "CMakeFiles/GTK4Learning.dir/src/file/open.c.obj"
+  "CMakeFiles/GTK4Learning.dir/src/file/open.c.obj.d"
   "CMakeFiles/GTK4Learning.dir/src/main.c.obj"
   "CMakeFiles/GTK4Learning.dir/src/main.c.obj.d"
   "CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj"

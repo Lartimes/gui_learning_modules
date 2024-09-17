@@ -68,11 +68,56 @@ include CMakeFiles/GTK4Learning.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GTK4Learning.dir/flags.make
 
+CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj: CMakeFiles/GTK4Learning.dir/flags.make
+CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj: CMakeFiles/GTK4Learning.dir/includes_C.rsp
+CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj: F:/Dev/CProjects/gui/GTK4Learning/src/FileRenameUtils.c
+CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj: CMakeFiles/GTK4Learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj -MF CMakeFiles\GTK4Learning.dir\src\FileRenameUtils.c.obj.d -o CMakeFiles\GTK4Learning.dir\src\FileRenameUtils.c.obj -c F:\Dev\CProjects\gui\GTK4Learning\src\FileRenameUtils.c
+
+CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.i"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Dev\CProjects\gui\GTK4Learning\src\FileRenameUtils.c > CMakeFiles\GTK4Learning.dir\src\FileRenameUtils.c.i
+
+CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.s"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Dev\CProjects\gui\GTK4Learning\src\FileRenameUtils.c -o CMakeFiles\GTK4Learning.dir\src\FileRenameUtils.c.s
+
+CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj: CMakeFiles/GTK4Learning.dir/flags.make
+CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj: CMakeFiles/GTK4Learning.dir/includes_C.rsp
+CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj: F:/Dev/CProjects/gui/GTK4Learning/src/file/notebook.c
+CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj: CMakeFiles/GTK4Learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj -MF CMakeFiles\GTK4Learning.dir\src\file\notebook.c.obj.d -o CMakeFiles\GTK4Learning.dir\src\file\notebook.c.obj -c F:\Dev\CProjects\gui\GTK4Learning\src\file\notebook.c
+
+CMakeFiles/GTK4Learning.dir/src/file/notebook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GTK4Learning.dir/src/file/notebook.c.i"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Dev\CProjects\gui\GTK4Learning\src\file\notebook.c > CMakeFiles\GTK4Learning.dir\src\file\notebook.c.i
+
+CMakeFiles/GTK4Learning.dir/src/file/notebook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GTK4Learning.dir/src/file/notebook.c.s"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Dev\CProjects\gui\GTK4Learning\src\file\notebook.c -o CMakeFiles\GTK4Learning.dir\src\file\notebook.c.s
+
+CMakeFiles/GTK4Learning.dir/src/file/open.c.obj: CMakeFiles/GTK4Learning.dir/flags.make
+CMakeFiles/GTK4Learning.dir/src/file/open.c.obj: CMakeFiles/GTK4Learning.dir/includes_C.rsp
+CMakeFiles/GTK4Learning.dir/src/file/open.c.obj: F:/Dev/CProjects/gui/GTK4Learning/src/file/open.c
+CMakeFiles/GTK4Learning.dir/src/file/open.c.obj: CMakeFiles/GTK4Learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/GTK4Learning.dir/src/file/open.c.obj"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GTK4Learning.dir/src/file/open.c.obj -MF CMakeFiles\GTK4Learning.dir\src\file\open.c.obj.d -o CMakeFiles\GTK4Learning.dir\src\file\open.c.obj -c F:\Dev\CProjects\gui\GTK4Learning\src\file\open.c
+
+CMakeFiles/GTK4Learning.dir/src/file/open.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GTK4Learning.dir/src/file/open.c.i"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Dev\CProjects\gui\GTK4Learning\src\file\open.c > CMakeFiles\GTK4Learning.dir\src\file\open.c.i
+
+CMakeFiles/GTK4Learning.dir/src/file/open.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GTK4Learning.dir/src/file/open.c.s"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Dev\CProjects\gui\GTK4Learning\src\file\open.c -o CMakeFiles\GTK4Learning.dir\src\file\open.c.s
+
 CMakeFiles/GTK4Learning.dir/src/main.c.obj: CMakeFiles/GTK4Learning.dir/flags.make
 CMakeFiles/GTK4Learning.dir/src/main.c.obj: CMakeFiles/GTK4Learning.dir/includes_C.rsp
 CMakeFiles/GTK4Learning.dir/src/main.c.obj: F:/Dev/CProjects/gui/GTK4Learning/src/main.c
 CMakeFiles/GTK4Learning.dir/src/main.c.obj: CMakeFiles/GTK4Learning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GTK4Learning.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/GTK4Learning.dir/src/main.c.obj"
 	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GTK4Learning.dir/src/main.c.obj -MF CMakeFiles\GTK4Learning.dir\src\main.c.obj.d -o CMakeFiles\GTK4Learning.dir\src\main.c.obj -c F:\Dev\CProjects\gui\GTK4Learning\src\main.c
 
 CMakeFiles/GTK4Learning.dir/src/main.c.i: cmake_force
@@ -87,7 +132,7 @@ CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj: CMakeFiles/GTK4Learning.d
 CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj: CMakeFiles/GTK4Learning.dir/includes_C.rsp
 CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj: F:/Dev/CProjects/gui/GTK4Learning/src/widgets/widgets.c
 CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj: CMakeFiles/GTK4Learning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj"
 	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj -MF CMakeFiles\GTK4Learning.dir\src\widgets\widgets.c.obj.d -o CMakeFiles\GTK4Learning.dir\src\widgets\widgets.c.obj -c F:\Dev\CProjects\gui\GTK4Learning\src\widgets\widgets.c
 
 CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.i: cmake_force
@@ -100,19 +145,25 @@ CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.s: cmake_force
 
 # Object files for target GTK4Learning
 GTK4Learning_OBJECTS = \
+"CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj" \
+"CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj" \
+"CMakeFiles/GTK4Learning.dir/src/file/open.c.obj" \
 "CMakeFiles/GTK4Learning.dir/src/main.c.obj" \
 "CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj"
 
 # External object files for target GTK4Learning
 GTK4Learning_EXTERNAL_OBJECTS =
 
+GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj
+GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj
+GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/file/open.c.obj
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/main.c.obj
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/build.make
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/linkLibs.rsp
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/objects1.rsp
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable GTK4Learning.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable GTK4Learning.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GTK4Learning.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
