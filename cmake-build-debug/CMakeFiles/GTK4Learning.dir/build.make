@@ -113,11 +113,26 @@ CMakeFiles/GTK4Learning.dir/src/file/open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GTK4Learning.dir/src/file/open.c.s"
 	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Dev\CProjects\gui\GTK4Learning\src\file\open.c -o CMakeFiles\GTK4Learning.dir\src\file\open.c.s
 
+CMakeFiles/GTK4Learning.dir/src/file/test.c.obj: CMakeFiles/GTK4Learning.dir/flags.make
+CMakeFiles/GTK4Learning.dir/src/file/test.c.obj: CMakeFiles/GTK4Learning.dir/includes_C.rsp
+CMakeFiles/GTK4Learning.dir/src/file/test.c.obj: F:/Dev/CProjects/gui/GTK4Learning/src/file/test.c
+CMakeFiles/GTK4Learning.dir/src/file/test.c.obj: CMakeFiles/GTK4Learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/GTK4Learning.dir/src/file/test.c.obj"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GTK4Learning.dir/src/file/test.c.obj -MF CMakeFiles\GTK4Learning.dir\src\file\test.c.obj.d -o CMakeFiles\GTK4Learning.dir\src\file\test.c.obj -c F:\Dev\CProjects\gui\GTK4Learning\src\file\test.c
+
+CMakeFiles/GTK4Learning.dir/src/file/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GTK4Learning.dir/src/file/test.c.i"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Dev\CProjects\gui\GTK4Learning\src\file\test.c > CMakeFiles\GTK4Learning.dir\src\file\test.c.i
+
+CMakeFiles/GTK4Learning.dir/src/file/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GTK4Learning.dir/src/file/test.c.s"
+	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Dev\CProjects\gui\GTK4Learning\src\file\test.c -o CMakeFiles\GTK4Learning.dir\src\file\test.c.s
+
 CMakeFiles/GTK4Learning.dir/src/main.c.obj: CMakeFiles/GTK4Learning.dir/flags.make
 CMakeFiles/GTK4Learning.dir/src/main.c.obj: CMakeFiles/GTK4Learning.dir/includes_C.rsp
 CMakeFiles/GTK4Learning.dir/src/main.c.obj: F:/Dev/CProjects/gui/GTK4Learning/src/main.c
 CMakeFiles/GTK4Learning.dir/src/main.c.obj: CMakeFiles/GTK4Learning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/GTK4Learning.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/GTK4Learning.dir/src/main.c.obj"
 	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GTK4Learning.dir/src/main.c.obj -MF CMakeFiles\GTK4Learning.dir\src\main.c.obj.d -o CMakeFiles\GTK4Learning.dir\src\main.c.obj -c F:\Dev\CProjects\gui\GTK4Learning\src\main.c
 
 CMakeFiles/GTK4Learning.dir/src/main.c.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj: CMakeFiles/GTK4Learning.d
 CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj: CMakeFiles/GTK4Learning.dir/includes_C.rsp
 CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj: F:/Dev/CProjects/gui/GTK4Learning/src/widgets/widgets.c
 CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj: CMakeFiles/GTK4Learning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj"
 	F:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj -MF CMakeFiles\GTK4Learning.dir\src\widgets\widgets.c.obj.d -o CMakeFiles\GTK4Learning.dir\src\widgets\widgets.c.obj -c F:\Dev\CProjects\gui\GTK4Learning\src\widgets\widgets.c
 
 CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.i: cmake_force
@@ -148,6 +163,7 @@ GTK4Learning_OBJECTS = \
 "CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj" \
 "CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj" \
 "CMakeFiles/GTK4Learning.dir/src/file/open.c.obj" \
+"CMakeFiles/GTK4Learning.dir/src/file/test.c.obj" \
 "CMakeFiles/GTK4Learning.dir/src/main.c.obj" \
 "CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj"
 
@@ -157,13 +173,14 @@ GTK4Learning_EXTERNAL_OBJECTS =
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/file/notebook.c.obj
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/file/open.c.obj
+GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/file/test.c.obj
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/main.c.obj
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/src/widgets/widgets.c.obj
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/build.make
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/linkLibs.rsp
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/objects1.rsp
 GTK4Learning.exe: CMakeFiles/GTK4Learning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable GTK4Learning.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable GTK4Learning.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GTK4Learning.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -80,12 +80,12 @@ clean: CMakeFiles/GTK4Learning.dir/clean
 CMakeFiles/GTK4Learning.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target GTK4Learning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target GTK4Learning"
 .PHONY : CMakeFiles/GTK4Learning.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GTK4Learning.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GTK4Learning.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\Dev\CProjects\gui\GTK4Learning\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/GTK4Learning.dir/rule

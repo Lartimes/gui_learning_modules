@@ -200,6 +200,30 @@ src/file/open.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/open.c.s
 .PHONY : src/file/open.c.s
 
+src/file/test.obj: src/file/test.c.obj
+.PHONY : src/file/test.obj
+
+# target to build an object file
+src/file/test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/test.c.obj
+.PHONY : src/file/test.c.obj
+
+src/file/test.i: src/file/test.c.i
+.PHONY : src/file/test.i
+
+# target to preprocess a source file
+src/file/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/test.c.i
+.PHONY : src/file/test.c.i
+
+src/file/test.s: src/file/test.c.s
+.PHONY : src/file/test.s
+
+# target to generate assembly for a file
+src/file/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/test.c.s
+.PHONY : src/file/test.c.s
+
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -266,6 +290,9 @@ help:
 	@echo ... src/file/open.obj
 	@echo ... src/file/open.i
 	@echo ... src/file/open.s
+	@echo ... src/file/test.obj
+	@echo ... src/file/test.i
+	@echo ... src/file/test.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
