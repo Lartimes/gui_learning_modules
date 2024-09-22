@@ -22,6 +22,15 @@ static char *str[MAX_NUM];
 static const char *input = INPUT;
 static const char *output = OUTPUT;
 static int count = 0;
+static void check_methods() ;
+static void rename_logic();
+
+//int main() {
+//    check_methods();
+//    rename_logic();
+//}
+
+
 
 static void trim(char *str) {
     int i, j;
@@ -211,10 +220,7 @@ static void rename_logic() {
     fclose(outputFile);
 }
 
-int main() {
-    check_methods();
-    rename_logic();
-}
+
 
 
 

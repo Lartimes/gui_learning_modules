@@ -128,30 +128,6 @@ GTK4Learning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/build
 .PHONY : GTK4Learning/fast
 
-src/FileRenameUtils.obj: src/FileRenameUtils.c.obj
-.PHONY : src/FileRenameUtils.obj
-
-# target to build an object file
-src/FileRenameUtils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.obj
-.PHONY : src/FileRenameUtils.c.obj
-
-src/FileRenameUtils.i: src/FileRenameUtils.c.i
-.PHONY : src/FileRenameUtils.i
-
-# target to preprocess a source file
-src/FileRenameUtils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.i
-.PHONY : src/FileRenameUtils.c.i
-
-src/FileRenameUtils.s: src/FileRenameUtils.c.s
-.PHONY : src/FileRenameUtils.s
-
-# target to generate assembly for a file
-src/FileRenameUtils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/FileRenameUtils.c.s
-.PHONY : src/FileRenameUtils.c.s
-
 src/file/notebook.obj: src/file/notebook.c.obj
 .PHONY : src/file/notebook.obj
 
@@ -200,30 +176,6 @@ src/file/open.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/open.c.s
 .PHONY : src/file/open.c.s
 
-src/file/test.obj: src/file/test.c.obj
-.PHONY : src/file/test.obj
-
-# target to build an object file
-src/file/test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/test.c.obj
-.PHONY : src/file/test.c.obj
-
-src/file/test.i: src/file/test.c.i
-.PHONY : src/file/test.i
-
-# target to preprocess a source file
-src/file/test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/test.c.i
-.PHONY : src/file/test.c.i
-
-src/file/test.s: src/file/test.c.s
-.PHONY : src/file/test.s
-
-# target to generate assembly for a file
-src/file/test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/file/test.c.s
-.PHONY : src/file/test.c.s
-
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -247,6 +199,30 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/util/FileRenameUtils.obj: src/util/FileRenameUtils.c.obj
+.PHONY : src/util/FileRenameUtils.obj
+
+# target to build an object file
+src/util/FileRenameUtils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/util/FileRenameUtils.c.obj
+.PHONY : src/util/FileRenameUtils.c.obj
+
+src/util/FileRenameUtils.i: src/util/FileRenameUtils.c.i
+.PHONY : src/util/FileRenameUtils.i
+
+# target to preprocess a source file
+src/util/FileRenameUtils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/util/FileRenameUtils.c.i
+.PHONY : src/util/FileRenameUtils.c.i
+
+src/util/FileRenameUtils.s: src/util/FileRenameUtils.c.s
+.PHONY : src/util/FileRenameUtils.s
+
+# target to generate assembly for a file
+src/util/FileRenameUtils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTK4Learning.dir\build.make CMakeFiles/GTK4Learning.dir/src/util/FileRenameUtils.c.s
+.PHONY : src/util/FileRenameUtils.c.s
 
 src/widgets/widgets.obj: src/widgets/widgets.c.obj
 .PHONY : src/widgets/widgets.obj
@@ -281,21 +257,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GTK4Learning
-	@echo ... src/FileRenameUtils.obj
-	@echo ... src/FileRenameUtils.i
-	@echo ... src/FileRenameUtils.s
 	@echo ... src/file/notebook.obj
 	@echo ... src/file/notebook.i
 	@echo ... src/file/notebook.s
 	@echo ... src/file/open.obj
 	@echo ... src/file/open.i
 	@echo ... src/file/open.s
-	@echo ... src/file/test.obj
-	@echo ... src/file/test.i
-	@echo ... src/file/test.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/util/FileRenameUtils.obj
+	@echo ... src/util/FileRenameUtils.i
+	@echo ... src/util/FileRenameUtils.s
 	@echo ... src/widgets/widgets.obj
 	@echo ... src/widgets/widgets.i
 	@echo ... src/widgets/widgets.s
